@@ -22,7 +22,6 @@
 
 		<section class="Clanak">
 			<div>
-				<h1> <?php echo "<p>&#9632;</p> " . $result['kategorija']; ?><h1>
 						<h2><?php echo $result['naslov']; ?></h2>
 						<h3>Autor: <?php echo $result['autor']; ?></h3>
 						<h3>Objavljeno: <?php echo $result['datum'] ?></h3>

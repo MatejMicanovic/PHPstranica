@@ -1,0 +1,8 @@
+CREATE TABLE korisnik (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    ime VARCHAR(100) NOT NULL,
+    prezime VARCHAR(100) NOT NULL,
+    korisnicko_ime VARCHAR(100) NOT NULL UNIQUE,
+    lozinka VARCHAR(255) NOT NULL,
+    razina TINYINT(1) NOT NULL DEFAULT 1
+);

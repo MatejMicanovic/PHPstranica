@@ -8,6 +8,7 @@
     <nav>
 
         <a href="../pages/index.php">Home</a>
+        <a href="../pages/galerija.php">Galerija</a>
         <a href="../pages/kontakti.php">Kontakt</a>
         <a href="../pages/o-nama.php">O nama</a>
         <?php
@@ -23,5 +24,8 @@
             echo "<a href='account.php'>Account</a>";
         }
         ?>
+
     </nav>
 </header>
+
+

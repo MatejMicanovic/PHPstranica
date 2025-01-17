@@ -23,7 +23,7 @@
 			echo "<div><label>Tekst vijesti: </label><textarea name='vijest' cols='30' rows='10'>" . $row['tekst'] . "</textarea></div><br/>";
 			echo "<div><label>Kategorija vijesti (Trenutno " . $row['kategorija'] . "): </label>";
 			echo "<select name='kategorija'><option>Games</option></select></div>";
-			echo "<div><label>Slika: </label><input type='file' accept='image/png,image/jpg' id='Slika' name='Slika' value='" . $row['slika'] . "'/><br/><label>Trenutna slika (Hover): </label> <img class='previewPic' src='img/" . $row['slika'] . "'/></div><br/>";
+			echo "<div><label>Slika: </label><input type='file' accept='image/png,image/jpg' id='Slika' name='Slika' value='" . $row['slika'] . "'/><br/><label>Trenutna slika (Hover): </label> <img class='preview' src='../img/" . $row['slika'] . "'/></div><br/>";
 			echo "<div><label>Arhiva: </label><input type='checkbox' name='arhiva'/></div>";
 			echo "<div><button type='submit' name='delete'>Izbriši članak</button><button type='submit' value='Izmijeni' name='change'>Izmijeni članak</button></div><br/>";
 			echo "</form>";
